@@ -152,10 +152,7 @@
 
 .project-containers img:hover {
   transform: scale(1.05);
-}
-
-.project-containers img:hover {
-  transition: all;
+  transition: transform 0.9s ease;
 }
 
 #experts-title {
