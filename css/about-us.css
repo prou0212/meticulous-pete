@@ -1,102 +1,103 @@
 #over-10-years {
-    text-align: center;
-    margin: 50px;
-    font-size: 80px;
+  text-align: center;
+  margin: 50px;
+  font-size: 80px;
 }
 
 #about-us-image {
-    padding: 30px;
-    width: 45%;
+  padding: 30px;
+  width: 45%;
 }
 
 #about-us-description {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #brown-container {
-    background-color: #c9a26a;
-    padding: 60px 200px;
-    margin: 0;
+  background-color: #c9a26a;
+  padding: 60px 200px;
+  margin: 0;
 }
 
 #cheesy-tagline-1 {
-    text-align: center;
-    font-size: 70px;
-    margin: 20px;
+  text-align: center;
+  font-size: 70px;
+  margin: 20px;
 }
 
 #cheesy-tagline-2 {
-    text-align: center;
-    font-size: 60px;
-    margin: 20px;
-    font-weight: 100;
+  text-align: center;
+  font-size: 60px;
+  margin: 20px;
+  font-weight: 100;
 }
 
 #hero-description {
-    text-align: center;
-    font-size: 25px;
-    padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
 }
 
 #hero-image {
-    object-fit: cover;
-    width: 400px;
-    height: auto;
+  object-fit: cover;
+  width: 400px;
+  height: auto;
 }
 
 #grey-container {
-    background-color: #383633;
-    padding: 2% 2% 0 2%;
+  background-color: #383633;
+  padding: 2% 2% 0 2%;
 }
 
-#owner-quote, #owner-name {
-    display: block;
-    text-align: center;
-    color: aliceblue;
+#owner-quote,
+#owner-name {
+  display: block;
+  text-align: center;
+  color: aliceblue;
 }
 
 #owner-quote {
-    font-size: 40px;
-    margin: 0;
+  font-size: 40px;
+  margin: 0;
 }
 
 #owner-name {
-    font-size: 30px;
-    margin: 0;
-    padding: 40px 40px 40px 40px;
+  font-size: 30px;
+  margin: 0;
+  padding: 40px 40px 40px 40px;
 }
 
 @media screen and (max-width: 1400px) {
-    #about-us-image {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+  #about-us-image {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    #over-10-years {
-        text-align: center;
-        margin: 50px;
-        font-size: 50px;
-    }
+  #over-10-years {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+  }
 
-    #brown-container {
-        padding: 60px 100px;
-        margin: 0;
-    }
+  #brown-container {
+    padding: 60px 100px;
+    margin: 0;
+  }
 
-    #hero-image {
+  #hero-image {
     width: 400px;
     height: auto;
     align-self: center;
-    }
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #brown-container {
-        padding: 60px 60px;
-        margin: 0;
-    }
+  #brown-container {
+    padding: 60px 60px;
+    margin: 0;
+  }
 }

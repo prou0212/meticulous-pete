@@ -1,253 +1,311 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Meticulous Pete Ltd. | Man of Many Trades</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Jesse Proulx"> 
+  <head>
+    <title>Meticulous Pete Ltd. | Man of Many Trades</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jesse Proulx" />
 
-        <link rel="icon" type="image/png" href="pictures/icon/hammer.png">
-        
-        <!--StyleSheets-->
-        <link href="css/header.css" rel="stylesheet" type="text/css">
-        <link href="css/footer.css" rel="stylesheet" type="text/css">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css">
-        <link href="css/services.css" rel="stylesheet" type="text/css">
-        <link href="css/basic-styling.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="pictures/icon/hammer.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap" rel="stylesheet">
-    </head>  
-        <body>
-            <header>
-                <nav class="nav-bar">
-                    <div class="nav-container">
-                        <a href="index.html">
-                            <div class="logo-text">
-                                <span class="stencil-text" id="logo-title">
-                                    Meticulous Pete Ltd.</span>
-                                <span class="stencil-text" id="logo-subtitle">A Man of Many Trades</span>
-                            </div>
-                        </a>
-                        <div class="nav-links">
-                            <a href="index.html" class="nav-link">
-                                <span>HOME</span>
-                            </a>
-                            <a href="services.html" class="nav-link">
-                                <span>SERVICES</span>
-                            </a>
-                            <a href="about-us.html" class="nav-link">
-                                <span>ABOUT US</span>
-                            </a>
-                            <a href="reviews.html" class="nav-link">
-                                <span>REVIEWS</span>
-                            </a>
-                            <a href="gallery.html" class="nav-link">
-                                <span>GALLERY</span>
-                            </a>
-                            <a href="#contact-us-section" class="nav-link">
-                                <span>CONTACT US</span>
-                            </a>
-                        </div>
-                        <div class="hamburger" onclick="toggleMenu()">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-           <main>
-                <div class="top-header">
-                    <div class="picture-header">
-                        <img src="pictures/services/services-header.jpg" alt="services picture">
-                    </div>
-                    <div class="picture-text">
-                        <h2 class="stencil-text">Services</h2>
-                    </div>
-                </div>
+    <!--StyleSheets-->
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/services.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
 
-                <div id="drywall-section">
-                    <div class="default-container">
-                        <div class="left-side-image" id="image-size">
-                            <img src="pictures/services/drywalling.jpg" alt="drywalling image">
-                        </div>
-                        <div class="right-side-description">
-                            <h2 class="merriweather-regular main-titles reveal">Drywalling</h2>
-                            <span class="noto-serif-regular description reveal">
-                            We deliver exceptional drywall installation and repair services with precision 
-                            and attention to detail. Our experienced team handles everything from new 
-                            construction drywall installation to patch repairs, texture matching, and complete 
-                            wall refinishing. Whether you're renovating a single room or tackling a whole-home 
-                            project, we ensure smooth, flawless surfaces that provide the perfect foundation 
-                            for your space. We take pride in our clean workmanship, efficient timelines, and 
-                            commitment to leaving your property looking pristine. From taping and mudding to 
-                            sanding and finishing, every step is executed with the meticulous care that defines 
-                            our work.</span>
-                            <a href="#contact-us-section" class="scope-one-regular buttons">Get A Quote!</a>
-                        </div>
-                    </div>
-                </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="index.html">
+            <div class="logo-text">
+              <span class="stencil-text" id="logo-title">
+                Meticulous Pete Ltd.</span
+              >
+              <span class="stencil-text" id="logo-subtitle"
+                >A Man of Many Trades</span
+              >
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">
+              <span>HOME</span>
+            </a>
+            <a href="services.html" class="nav-link">
+              <span>SERVICES</span>
+            </a>
+            <a href="about-us.html" class="nav-link">
+              <span>ABOUT US</span>
+            </a>
+            <a href="reviews.html" class="nav-link">
+              <span>REVIEWS</span>
+            </a>
+            <a href="gallery.html" class="nav-link">
+              <span>GALLERY</span>
+            </a>
+            <a href="#contact-us-section" class="nav-link">
+              <span>CONTACT US</span>
+            </a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="top-header">
+        <div class="picture-header">
+          <img
+            src="pictures/services/services-header.jpg"
+            alt="services picture"
+          />
+        </div>
+        <div class="picture-text">
+          <h2 class="stencil-text">Services</h2>
+        </div>
+      </div>
 
-                <div id="flooring-section">
-                    <div class="default-container">
-                        <div class="left-side-description">
-                            <h2 class="merriweather-regular main-titles reveal">Flooring</h2>
-                            <span class="noto-serif-regular description reveal">
-                            Transform your space from the ground up with our professional flooring services. 
-                            We specialize in the installation of hardwood, laminate, vinyl, tile, and more. 
-                            Whether you're looking to upgrade a single room or renovate your entire home, 
-                            our skilled team ensures precise measurements, expert installation, and a flawless 
-                            finish. We handle everything from subfloor preparation to the final touches, 
-                            delivering durable, beautiful floors that enhance your home's aesthetic and value. 
-                            With our meticulous attention to detail, you can trust that every plank, tile, and 
-                            seam will be perfectly placed.</span>
-                            <a href="#contact-us-section" class="scope-one-regular buttons">Get A Quote!</a>
-                        </div>
-                        <div class="right-side-image" id="image-size">
-                            <img src="pictures/services/flooring.jpg" alt="flooring image">
-                        </div>
-                    </div>
-                </div>
+      <div id="drywall-section">
+        <div class="left-right-container">
+          <div class="left-side-image image-size">
+            <img
+              src="pictures/services/drywalling.jpg"
+              alt="drywalling image"
+            />
+          </div>
+          <div class="right-side-description">
+            <h2 class="merriweather-regular main-titles reveal">Drywalling</h2>
+            <span class="noto-serif-regular description reveal">
+              We deliver exceptional drywall installation and repair services
+              with precision and attention to detail. Our experienced team
+              handles everything from new construction drywall installation to
+              patch repairs, texture matching, and complete wall refinishing.
+              Whether you're renovating a single room or tackling a whole-home
+              project, we ensure smooth, flawless surfaces that provide the
+              perfect foundation for your space. We take pride in our clean
+              workmanship, efficient timelines, and commitment to leaving your
+              property looking pristine. From taping and mudding to sanding and
+              finishing, every step is executed with the meticulous care that
+              defines our work.</span
+            >
+            <a href="#contact-us-section" class="scope-one-regular buttons"
+              >Get A Quote!</a
+            >
+          </div>
+        </div>
+      </div>
 
-                <div id="decks-section">
-                    <div class="default-container">
-                        <div class="left-side-image" id="image-size">
-                            <img src="pictures/services/decking.jpeg" alt="decking image">
-                        </div>
-                        <div class="right-side-description">
-                            <h2 class="merriweather-regular main-titles reveal">Decking</h2>
-                            <span class="noto-serif-regular description reveal">
-                            Expand your living space outdoors with a custom deck built to last. Our team 
-                            at Meticulous Pete designs and constructs decks that combine functionality with 
-                            aesthetic appeal. From composite materials to traditional wood, we work with 
-                            quality products that withstand the elements while providing a beautiful outdoor 
-                            retreat for your family. Whether you envision a cozy backyard gathering spot 
-                            or an expansive entertainment area, we bring your vision to life with expert 
-                            craftsmanship, structural integrity, and attention to every detail—from framing 
-                            to finishing touches.</span>
-                            <a href="#contact-us-section" class="scope-one-regular buttons">Get A Quote!</a>
-                        </div>
-                    </div>
-                </div>
+      <div id="flooring-section">
+        <div class="left-right-container">
+          <div class="left-side-description">
+            <h2 class="merriweather-regular main-titles reveal">Flooring</h2>
+            <span class="noto-serif-regular description reveal">
+              Transform your space from the ground up with our professional
+              flooring services. We specialize in the installation of hardwood,
+              laminate, vinyl, tile, and more. Whether you're looking to upgrade
+              a single room or renovate your entire home, our skilled team
+              ensures precise measurements, expert installation, and a flawless
+              finish. We handle everything from subfloor preparation to the
+              final touches, delivering durable, beautiful floors that enhance
+              your home's aesthetic and value. With our meticulous attention to
+              detail, you can trust that every plank, tile, and seam will be
+              perfectly placed.</span
+            >
+            <a href="#contact-us-section" class="scope-one-regular buttons"
+              >Get A Quote!</a
+            >
+          </div>
+          <div class="right-side-image image-size">
+            <img src="pictures/services/flooring.jpg" alt="flooring image" />
+          </div>
+        </div>
+      </div>
 
-                <div id="basements-section">
-                    <div class="default-container">
-                        <div class="left-side-description">
-                            <h2 class="merriweather-regular main-titles reveal">Basements</h2>
-                            <span class="noto-serif-regular description reveal">
-                            Unlock the full potential of your home with a professionally finished basement. 
-                            We specialize in transforming underutilized basement spaces into functional, 
-                            inviting areas perfect for family rooms, home offices, guest suites, or entertainment 
-                            zones. We handle all aspects of basement renovation, including framing, insulation, 
-                            drywall, flooring, electrical, and plumbing. Our team ensures proper moisture control 
-                            and code compliance while delivering a space that feels like a natural extension of your home. 
-                            Let us help you maximize your square footage with quality workmanship you can rely on.</span>
-                            <a href="#contact-us-section" class="scope-one-regular buttons">Get A Quote!</a>
-                        </div>
-                        <div class="right-side-image" id="image-size">
-                            <img src="pictures/services/basement.jpg" alt="basement image">
-                        </div>
-                    </div>
-                </div>
+      <div id="decks-section">
+        <div class="left-right-container">
+          <div class="left-side-image image-size">
+            <img src="pictures/services/decking.jpeg" alt="decking image" />
+          </div>
+          <div class="right-side-description">
+            <h2 class="merriweather-regular main-titles reveal">Decking</h2>
+            <span class="noto-serif-regular description reveal">
+              Expand your living space outdoors with a custom deck built to
+              last. Our team at Meticulous Pete designs and constructs decks
+              that combine functionality with aesthetic appeal. From composite
+              materials to traditional wood, we work with quality products that
+              withstand the elements while providing a beautiful outdoor retreat
+              for your family. Whether you envision a cozy backyard gathering
+              spot or an expansive entertainment area, we bring your vision to
+              life with expert craftsmanship, structural integrity, and
+              attention to every detail—from framing to finishing touches.</span
+            >
+            <a href="#contact-us-section" class="scope-one-regular buttons"
+              >Get A Quote!</a
+            >
+          </div>
+        </div>
+      </div>
 
-                <div id="kitchens-section">
-                    <div class="default-container">
-                        <div class="left-side-image" id="image-size">
-                            <img src="pictures/services/kitchen.jpeg" alt="Kitchen Image">
-                        </div>
-                        <div class="right-side-description">
-                            <h2 class="merriweather-regular main-titles reveal">Kitchens</h2>
-                            <span class="noto-serif-regular description reveal">
-                            The kitchen is the heart of the home, and at Meticulous Pete, we create spaces where function 
-                            meets style. Our kitchen renovation services include everything from cabinet installation and 
-                            countertop fitting to backsplash tiling and fixture upgrades. Whether you're dreaming of a complete 
-                            remodel or targeted updates, we work closely with you to design a kitchen that suits your lifestyle 
-                            and aesthetic preferences. With our commitment to precision and quality materials, we'll transform 
-                            your kitchen into a beautiful, efficient space where memories are made and meals are shared.</span>
-                            <a href="#contact-us-section" class="scope-one-regular buttons">Get A Quote!</a>
-                        </div>
-                    </div>
-                </div>
+      <div id="basements-section">
+        <div class="left-right-container">
+          <div class="left-side-description">
+            <h2 class="merriweather-regular main-titles reveal">Basements</h2>
+            <span class="noto-serif-regular description reveal">
+              Unlock the full potential of your home with a professionally
+              finished basement. We specialize in transforming underutilized
+              basement spaces into functional, inviting areas perfect for family
+              rooms, home offices, guest suites, or entertainment zones. We
+              handle all aspects of basement renovation, including framing,
+              insulation, drywall, flooring, electrical, and plumbing. Our team
+              ensures proper moisture control and code compliance while
+              delivering a space that feels like a natural extension of your
+              home. Let us help you maximize your square footage with quality
+              workmanship you can rely on.</span
+            >
+            <a href="#contact-us-section" class="scope-one-regular buttons"
+              >Get A Quote!</a
+            >
+          </div>
+          <div class="right-side-image image-size">
+            <img src="pictures/services/basement.jpg" alt="basement image" />
+          </div>
+        </div>
+      </div>
 
-                <div id="bathrooms-section">
-                    <div class="default-container">
-                        <div class="left-side-description">
-                            <h2 class="merriweather-regular main-titles reveal">Bathrooms</h2>
-                            <span class="noto-serif-regular description reveal">
-                            Create your personal sanctuary with a beautifully renovated bathroom. Meticulous Pete offers 
-                            comprehensive bathroom remodeling services, from modern vanity installations and custom tile work 
-                            to shower and tub replacements. We understand that bathrooms require both style and functionality, 
-                            which is why we focus on quality fixtures, proper ventilation, and water-resistant finishes that 
-                            stand the test of time. Whether you want a spa-like master bath or a practical guest bathroom upgrade, 
-                            our team delivers meticulous craftsmanship that combines comfort, durability, and elegant design.</span>
-                            <a href="#contact-us-section" class="scope-one-regular buttons">Get A Quote!</a>
-                        </div>
-                        <div class="right-side-image" id="image-size">
-                            <img src="pictures/services/bathroom.jpeg" alt="bathroom image">
-                        </div>
-                    </div>
-                </div>
+      <div id="kitchens-section">
+        <div class="left-right-container">
+          <div class="left-side-image image-size">
+            <img src="pictures/services/kitchen.jpeg" alt="Kitchen Image" />
+          </div>
+          <div class="right-side-description">
+            <h2 class="merriweather-regular main-titles reveal">Kitchens</h2>
+            <span class="noto-serif-regular description reveal">
+              The kitchen is the heart of the home, and at Meticulous Pete, we
+              create spaces where function meets style. Our kitchen renovation
+              services include everything from cabinet installation and
+              countertop fitting to backsplash tiling and fixture upgrades.
+              Whether you're dreaming of a complete remodel or targeted updates,
+              we work closely with you to design a kitchen that suits your
+              lifestyle and aesthetic preferences. With our commitment to
+              precision and quality materials, we'll transform your kitchen into
+              a beautiful, efficient space where memories are made and meals are
+              shared.</span
+            >
+            <a href="#contact-us-section" class="scope-one-regular buttons"
+              >Get A Quote!</a
+            >
+          </div>
+        </div>
+      </div>
 
-                <div id="contact-us-section">
-                    <div class="left-side">
-                        <h2 class="stencil-text main-titles">Contact Us!</h2>
-                        <span class="noto-serif-regular description">
-                        Ready to bring your vision to life? Contact Meticulous Pete today for a free consultation. 
-                        Whether it's a small repair or a complete renovation, we're here to deliver quality workmanship 
-                        you can trust. We pride ourselves on clear communication, timely project completion, and treating 
-                        every home as if it were our own. From the initial consultation to the final walk-through, we're 
-                        committed to exceeding your expectations and making the renovation process as smooth and stress-free 
-                        as possible.
-                        </span>
-                    </div>
-                    <div class="right-side">
-                        <span class="merriweather-regular contact-header">Telephone: </span>
-                        <span class="merriweather-regular contact-info">613-327-4221</span>
-                        <span class="merriweather-regular contact-header">Email: </span>
-                        <a href="mailto:meticulouspeter@gmail.com" class="merriweather-regular" id="mail-link">
-                            meticulouspeter@gmail.com</a>
-                        <span class="merriweather-regular contact-header">Hours: </span>
-                        <span class="merriweather-regular contact-info">Monday to Friday</span>
-                        <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
-                    </div>
-                </div>
-           </main>
-            <footer>
-                <div id="footer-section">
-                    <span> &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br>
-                    Website by Jesse Proulx</span>
-                </div>
-            </footer>
-            <script>
-                function toggleMenu() {
-                const hamburger = document.querySelector('.hamburger');
-                const navLinks = document.querySelector('.nav-links');
-    
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                }
+      <div id="bathrooms-section">
+        <div class="left-right-container">
+          <div class="left-side-description">
+            <h2 class="merriweather-regular main-titles reveal">Bathrooms</h2>
+            <span class="noto-serif-regular description reveal">
+              Create your personal sanctuary with a beautifully renovated
+              bathroom. Meticulous Pete offers comprehensive bathroom remodeling
+              services, from modern vanity installations and custom tile work to
+              shower and tub replacements. We understand that bathrooms require
+              both style and functionality, which is why we focus on quality
+              fixtures, proper ventilation, and water-resistant finishes that
+              stand the test of time. Whether you want a spa-like master bath or
+              a practical guest bathroom upgrade, our team delivers meticulous
+              craftsmanship that combines comfort, durability, and elegant
+              design.</span
+            >
+            <a href="#contact-us-section" class="scope-one-regular buttons"
+              >Get A Quote!</a
+            >
+          </div>
+          <div class="right-side-image" id="image-size">
+            <img src="pictures/services/bathroom.jpeg" alt="bathroom image" />
+          </div>
+        </div>
+      </div>
 
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    document.querySelector('.hamburger').classList.remove('active');
-                    document.querySelector('.nav-links').classList.remove('active');
-                });
-            });
-            </script>
+      <div id="contact-us-section">
+        <div class="left-side">
+          <h2 class="stencil-text main-titles">Contact Us!</h2>
+          <span class="noto-serif-regular description">
+            Ready to bring your vision to life? Contact Meticulous Pete today
+            for a free consultation. Whether it's a small repair or a complete
+            renovation, we're here to deliver quality workmanship you can trust.
+            We pride ourselves on clear communication, timely project
+            completion, and treating every home as if it were our own. From the
+            initial consultation to the final walk-through, we're committed to
+            exceeding your expectations and making the renovation process as
+            smooth and stress-free as possible.
+          </span>
+        </div>
+        <div class="right-side">
+          <span class="merriweather-regular contact-header">Telephone: </span>
+          <span class="merriweather-regular contact-info">613-327-4221</span>
+          <span class="merriweather-regular contact-header">Email: </span>
+          <a
+            href="mailto:meticulouspeter@gmail.com"
+            class="merriweather-regular"
+            id="mail-link"
+          >
+            meticulouspeter@gmail.com</a
+          >
+          <span class="merriweather-regular contact-header">Hours: </span>
+          <span class="merriweather-regular contact-info"
+            >Monday to Friday</span
+          >
+          <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-section">
+        <span>
+          &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br />
+          Website by Jesse Proulx</span
+        >
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
 
-            <script>
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                });
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
 
-                document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-            </script>
-        </body>
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".hamburger").classList.remove("active");
+          document.querySelector(".nav-links").classList.remove("active");
+        });
+      });
+    </script>
+
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
 </html>
-

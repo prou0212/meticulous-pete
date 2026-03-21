@@ -1,169 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Meticulous Pete | Man of Many Trades</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Jesse Proulx"> 
+  <head>
+    <title>Meticulous Pete | Man of Many Trades</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jesse Proulx" />
 
-        <link rel="icon" type="image/png" href="pictures/icon/hammer.png">
-        
-        <!--StyleSheets-->
-        <link href="css/header.css" rel="stylesheet" type="text/css">
-        <link href="css/footer.css" rel="stylesheet" type="text/css">
-        <link href="css/about-us.css" rel="stylesheet" type="text/css">
-        <link href="css/basic-styling.css" rel="stylesheet" type="text/css">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="pictures/icon/hammer.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap" rel="stylesheet">
-    </head>  
-        <body>
-            <header>
-                <nav class="nav-bar">
-                    <div class="nav-container">
-                        <a href="index.html">
-                            <div class="logo-text">
-                                <span class="stencil-text" id="logo-title" style="color: black;">
-                                    Meticulous Pete Ltd.</span>
-                                <span class="stencil-text" id="logo-subtitle">A Man of Many Trades</span>
-                            </div>
-                        </a>
-                        <div class="nav-links">
-                            <a href="index.html" class="nav-link">
-                                <span>HOME</span>
-                            </a>
-                            <a href="services.html" class="nav-link">
-                                <span>SERVICES</span>
-                            </a>
-                            <a href="about-us.html" class="nav-link">
-                                <span>ABOUT US</span>
-                            </a>
-                            <a href="reviews.html" class="nav-link">
-                                <span>REVIEWS</span>
-                            </a>
-                            <a href="gallery.html" class="nav-link">
-                                <span>GALLERY</span>
-                            </a>
-                            <a href="#contact-us-section" class="nav-link">
-                                <span>CONTACT US</span>
-                            </a>
-                        </div>
-                        <div class="hamburger" onclick="toggleMenu()">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-           <main>
-                <div class="top-header">
-                    <div class="picture-header">
-                        <img src="pictures/about-us/about-us.jpg" alt="services picture">
-                    </div>
-                    <div class="picture-text">
-                        <h2 class="stencil-text">About Us</h2>
-                    </div>
-                </div>
-                <div class="introduction-section">
-                    <h2 class="stencil-text reveal" id="over-10-years">With over 35 years of experience in residential and commercial construction</h2>
-                    <div class="default-container">
-                        <div class="left-side-image" id="about-us-image">
-                            <img src="pictures/about-us/peter_truck.jpg" alt="peters truck">
-                        </div>
-                        <div class="right-side-description">
-                            <span class="noto-serif-regular description reveal" id="about-us-description">
-                            With over <strong>30 years</strong> of combined experience and 
-                            <strong> a decade </strong>serving the Ottawa region, 
-                            Meticulous Pete has built a reputation for exceptional quality in residential 
-                            renovations and home improvement. Our skilled team specializes in drywall, flooring, 
-                            decking, fencing, and complete kitchen and bathroom remodeling. Treating every home 
-                            as if it were our own. </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="solid-colour-container" id="grey-container">
-                    <h3 class="merriweather-regular reveal" id="owner-quote">"It's not just another project for our team but helping you call it home!"</h3>
-                    <span class="noto-serif-regular" id="owner-name">Peter Rousseau - Owner of Meticulous Pete Ltd.</span>         
-                </div>
-                <div class="solid-colour-container" id="brown-container">
-                    <h2 class="merriweather-regular reveal" id="cheesy-tagline-1">We don't just build structures...</h2>
-                    <h2 class="merriweather-regular" id="cheesy-tagline-2">...we build lasting relationships with homeowners who trust us with their most important investment.</h2>
-                    <div class="default-container">
-                        <div class="left-side-image" id="hero-image">
-                            <img src="pictures/about-us/about-us-2.jpeg" alt="Roof picture">
-                        </div>
-                        <div class="right-side">
-                            <span class="noto-serif-regular reveal" id="hero-description">
-                                What sets us apart is our personalized approach and unwavering 
-                                commitment to precision. We take the time to understand your vision, communicate clearly 
-                                throughout the process, and deliver results that exceed expectations. Our satisfied 
-                                clients trust Meticulous Pete not just as contractors, but as partners dedicated to 
-                                bringing their home improvement dreams to life. <br>
-                                <br>
-                                "Quality You Can Trust, Craftsmanship You Can See" – that's the Meticulous Pete difference. </span>
-                        </div>
-                    </div>
-                </div>
-                <div id="contact-us-section">
-                    <div class="left-side">
-                        <h2 class="stencil-text main-titles">Contact Us!</h2>
-                        <span class="noto-serif-regular description">
-                            Ready to bring your vision to life? Contact Meticulous Pete today for a free consultation. 
-                            Whether it's a small repair or a complete renovation, we're here to deliver quality workmanship 
-                            you can trust. We pride ourselves on clear communication, timely project completion, and treating 
-                            every home as if it were our own. From the initial consultation to the final walk-through, we're 
-                            committed to exceeding your expectations and making the renovation process as smooth and stress-free 
-                            as possible.
-                        </span>
-                    </div>
-                    <div class="right-side">
-                        <span class="merriweather-regular contact-header">Telephone: </span>
-                        <span class="merriweather-regular contact-info">613-327-4221</span>
-                        <span class="merriweather-regular contact-header">Email: </span>
-                        <a href="mailto:meticulouspeter@gmail.com" class="merriweather-regular" id="mail-link">
-                            meticulouspeter@gmail.com</a>
-                        <span class="merriweather-regular contact-header">Hours: </span>
-                        <span class="merriweather-regular contact-info">Monday to Friday</span>
-                        <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
-                    </div>
-                </div>
-           </main>
-            <footer>
-                <div id="footer-section">
-                    <span> &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br>
-                    Website by Jesse Proulx</span>
-                </div>
-            </footer>
-            <script>
-                function toggleMenu() {
-                const hamburger = document.querySelector('.hamburger');
-                const navLinks = document.querySelector('.nav-links');
-    
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                }
+    <!--StyleSheets-->
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/about-us.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
 
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    document.querySelector('.hamburger').classList.remove('active');
-                    document.querySelector('.nav-links').classList.remove('active');
-                });
-            });
-            </script>
-            <script>
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                });
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="index.html">
+            <div class="logo-text">
+              <span class="stencil-text" id="logo-title" style="color: black">
+                Meticulous Pete Ltd.</span
+              >
+              <span class="stencil-text" id="logo-subtitle"
+                >A Man of Many Trades</span
+              >
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">
+              <span>HOME</span>
+            </a>
+            <a href="services.html" class="nav-link">
+              <span>SERVICES</span>
+            </a>
+            <a href="about-us.html" class="nav-link">
+              <span>ABOUT US</span>
+            </a>
+            <a href="reviews.html" class="nav-link">
+              <span>REVIEWS</span>
+            </a>
+            <a href="gallery.html" class="nav-link">
+              <span>GALLERY</span>
+            </a>
+            <a href="#contact-us-section" class="nav-link">
+              <span>CONTACT US</span>
+            </a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="top-header">
+        <div class="picture-header">
+          <img src="pictures/about-us/about-us.jpg" alt="services picture" />
+        </div>
+        <div class="picture-text">
+          <h2 class="stencil-text">About Us</h2>
+        </div>
+      </div>
+      <div class="introduction-section">
+        <h2 class="stencil-text reveal" id="over-10-years">
+          With over 35 years of experience in residential and commercial
+          construction
+        </h2>
+        <div class="main-container">
+          <div class="left-side-image" id="about-us-image">
+            <img src="pictures/about-us/peter_truck.jpg" alt="peters truck" />
+          </div>
+          <div class="right-side-description">
+            <span
+              class="noto-serif-regular description reveal"
+              id="about-us-description"
+            >
+              With over <strong>30 years</strong> of combined experience and
+              <strong> a decade </strong>serving the Ottawa region, Meticulous
+              Pete has built a reputation for exceptional quality in residential
+              renovations and home improvement. Our skilled team specializes in
+              drywall, flooring, decking, fencing, and complete kitchen and
+              bathroom remodeling. Treating every home as if it were our own.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="solid-colour-container" id="grey-container">
+        <h3 class="merriweather-regular reveal" id="owner-quote">
+          "It's not just another project for our team but helping you call it
+          home!"
+        </h3>
+        <span class="noto-serif-regular" id="owner-name"
+          >Peter Rousseau - Owner of Meticulous Pete Ltd.</span
+        >
+      </div>
+      <div class="solid-colour-container" id="brown-container">
+        <h2 class="merriweather-regular reveal" id="cheesy-tagline-1">
+          We don't just build structures...
+        </h2>
+        <h2 class="merriweather-regular" id="cheesy-tagline-2">
+          ...we build lasting relationships with homeowners who trust us with
+          their most important investment.
+        </h2>
+        <div class="main-container">
+          <div class="left-side-image" id="hero-image">
+            <img src="pictures/about-us/about-us-2.jpeg" alt="Roof picture" />
+          </div>
+          <div class="right-side">
+            <span class="noto-serif-regular reveal" id="hero-description">
+              What sets us apart is our personalized approach and unwavering
+              commitment to precision. We take the time to understand your
+              vision, communicate clearly throughout the process, and deliver
+              results that exceed expectations. Our satisfied clients trust
+              Meticulous Pete not just as contractors, but as partners dedicated
+              to bringing their home improvement dreams to life. <br />
+              <br />
+              "Quality You Can Trust, Craftsmanship You Can See" – that's the
+              Meticulous Pete difference.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div id="contact-us-section">
+        <div class="left-side">
+          <h2 class="stencil-text main-titles">Contact Us!</h2>
+          <span class="noto-serif-regular description">
+            Ready to bring your vision to life? Contact Meticulous Pete today
+            for a free consultation. Whether it's a small repair or a complete
+            renovation, we're here to deliver quality workmanship you can trust.
+            We pride ourselves on clear communication, timely project
+            completion, and treating every home as if it were our own. From the
+            initial consultation to the final walk-through, we're committed to
+            exceeding your expectations and making the renovation process as
+            smooth and stress-free as possible.
+          </span>
+        </div>
+        <div class="right-side">
+          <span class="merriweather-regular contact-header">Telephone: </span>
+          <span class="merriweather-regular contact-info">613-327-4221</span>
+          <span class="merriweather-regular contact-header">Email: </span>
+          <a
+            href="mailto:meticulouspeter@gmail.com"
+            class="merriweather-regular"
+            id="mail-link"
+          >
+            meticulouspeter@gmail.com</a
+          >
+          <span class="merriweather-regular contact-header">Hours: </span>
+          <span class="merriweather-regular contact-info"
+            >Monday to Friday</span
+          >
+          <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-section">
+        <span>
+          &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br />
+          Website by Jesse Proulx</span
+        >
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
 
-                document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-            </script>
-        </body>
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
+
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".hamburger").classList.remove("active");
+          document.querySelector(".nav-links").classList.remove("active");
+        });
+      });
+    </script>
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
 </html>
-

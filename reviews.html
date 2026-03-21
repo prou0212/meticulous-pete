@@ -1,218 +1,261 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Meticulous Pete Ltd. | Man of Many Trades</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Jesse Proulx"> 
+  <head>
+    <title>Meticulous Pete Ltd. | Man of Many Trades</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jesse Proulx" />
 
-        <link rel="icon" type="image/png" href="pictures/icon/hammer.png">
-        
-        <!--StyleSheets-->
-        <link href="css/header.css" rel="stylesheet" type="text/css">
-        <link href="css/footer.css" rel="stylesheet" type="text/css">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css">
-        <link href="css/reviews.css" rel="stylesheet" type="text/css">
-        <link href="css/basic-styling.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="pictures/icon/hammer.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap" rel="stylesheet">
-    </head>  
-        <body>
-            <header>
-                <nav class="nav-bar">
-                    <div class="nav-container">
-                        <a href="index.html">
-                            <div class="logo-text">
-                                <span class="stencil-text" id="logo-title" style="color: black;">
-                                    Meticulous Pete Ltd.</span>
-                                <span class="stencil-text" id="logo-subtitle">A Man of Many Trades</span>
-                            </div>
-                        </a>
-                        <div class="nav-links">
-                            <a href="index.html" class="nav-link">
-                                <span>HOME</span>
-                            </a>
-                            <a href="services.html" class="nav-link">
-                                <span>SERVICES</span>
-                            </a>
-                            <a href="about-us.html" class="nav-link">
-                                <span>ABOUT US</span>
-                            </a>
-                            <a href="reviews.html" class="nav-link">
-                                <span>REVIEWS</span>
-                            </a>
-                            <a href="gallery.html" class="nav-link">
-                                <span>GALLERY</span>
-                            </a>
-                            <a href="#contact-us-section" class="nav-link">
-                                <span>CONTACT US</span>
-                            </a>
-                        </div>
-                        <div class="hamburger" onclick="toggleMenu()">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-           <main>
-                <div class="top-header">
-                    <div class="picture-header">
-                        <img src="pictures/reviews/header-review-mod.jpg" alt="services picture">
-                    </div>
-                    <div class="picture-text">
-                        <h2 class="stencil-text">Reviews</h2>
-                    </div>
-                </div>
-                <div class="review-header">
-                    <h2 class="merriweather-regular" id="reviews-caption-1">Don't take our word for it...</h2>
-                    <h2 class="merriweather-regular" id="reviews-caption-2">...hear from some our valued customers!</h2>
-                </div>
-                <div class="review-container">
-                    <div class="color-container-review reveal">
-                        <img src="pictures/reviews/stars.png" alt="stars">
-                        <span class="noto-serif-regular">
-                            "Peter and his team completely transformed our basement! From the initial 
-                            consultation to the final walkthrough, everything was handled professionally. 
-                            The drywall work was flawless, and they finished ahead of schedule. Peter 
-                            was always available to answer questions and made sure we were happy with 
-                            every detail. Highly recommend Meticulous Pete for any renovation project!"
-                        </span>
-                        <span class="scope-one-regular customer-review-name">Anita Dick, Barrhaven</span>
-                    </div>
-                    <div class="color-container-review reveal">
-                        <img src="pictures/reviews/stars.png" alt="stars">
-                        <span class="noto-serif-regular">
-                            "We hired Peter to install new hardwood flooring throughout our main 
-                            floor and build a custom deck in our backyard, and the quality of workmanship is 
-                            simply outstanding. Peter provided a detailed quote that was fair and transparent - 
-                            no hidden fees or surprises. When it came to the flooring, his attention to detail 
-                            really shined through. Every plank was carefully placed, every corner is perfectly 
-                            mitered, and the transitions between rooms are seamless. He even helped us navigate 
-                            some tricky areas around our fireplace and staircase. The deck project was equally 
-                            impressive. Peter designed it to maximize our yard space while ensuring it complemented 
-                            our home's architecture. The structure is rock-solid, the boards are perfectly level, 
-                            and the finish is beautiful. Throughout both projects, his team was punctual, 
-                            professional, and incredibly respectful of our home. They cleaned up after themselves 
-                            every single day and kept disruption to our daily routine at a minimum. My wife and I 
-                            both work from home, and we barely noticed they were here. Fair pricing, excellent 
-                            communication, and results that exceeded our expectations - we'll definitely be calling 
-                            Meticulous Pete for all our future home improvement needs!"
-                        </span>
-                        <span class="scope-one-regular customer-review-name">Harry Johnson, Kanata</span>
-                    </div>
-                    <div class="color-container-review reveal">
-                        <img src="pictures/reviews/stars.png" alt="stars">
-                        <span class="noto-serif-regular">
-                            "Peter did a beautiful job renovating our master bathroom. He helped us choose 
-                            materials that fit our budget and style perfectly. The tile work is stunning, 
-                            and the new vanity and fixtures look amazing. What impressed me most was his 
-                            communication - he kept us updated throughout the entire process and there were 
-                            no surprises. Worth every penny!"
-                        </span>
-                        <span class="scope-one-regular customer-review-name">Dixon Butts, Winchester</span>
-                    </div>
-                    <div class="color-container-review reveal">
-                        <img src="pictures/reviews/stars.png" alt="stars">
-                        <span class="noto-serif-regular">
-                            "I needed a new fence installed quickly before winter arrived, and Peter 
-                            absolutely came through for us. When I first reached out, he responded 
-                            within hours and came out to look at the property the very next day. He 
-                            took measurements, discussed different material options with me, and 
-                            provided a detailed quote on the spot. The price was more than fair - 
-                            actually better than two other quotes I'd received - and he was able to 
-                            start the following week. Peter and his team worked efficiently and 
-                            professionally, and the fence was completed in just three days despite 
-                            some challenging weather. The craftsmanship is solid and built to last. 
-                            Every post is perfectly plumb, the boards are aligned beautifully, and 
-                            the gates open and close smoothly without any sagging. You can tell Peter 
-                            takes real pride in his work and doesn't cut corners. He even took extra 
-                            time to ensure the fence line was perfectly straight and level across 
-                            our slightly sloped yard. Beyond the quality of work, what stood out was 
-                            Peter's integrity and reliability. He showed up exactly when he said he 
-                            would, kept me informed throughout the process, and didn't try to upsell 
-                            me on things I didn't need. He's honest, straightforward, and clearly 
-                            passionate about delivering excellent results. I've already recommended him 
-                            to three of my neighbors, and two of them have hired him for their own projects. 
-                            If you need quality work done right, call Meticulous Pete. You won't be disappointed!"
-                        </span>
-                        <span class="scope-one-regular customer-review-name">Ben R. Over, Orleans</span>
-                    </div>
-                    <div class="color-container-review reveal">
-                        <img src="pictures/reviews/stars.png" alt="stars">
-                        <span class="noto-serif-regular">
-                            "We hired Meticulous Pete to install new flooring throughout 
-                            our main floor and build a deck in our backyard. The quality 
-                            of workmanship is outstanding. Peter's attention to detail 
-                            really shows - every corner is perfect, every board is level. 
-                            They cleaned up after themselves every day and treated our 
-                            home with respect. Fair pricing and excellent results. We'll 
-                            definitely be calling them for future projects."
-                        </span>
-                        <span class="scope-one-regular customer-review-name">E. Normous Peter. Nepean</span>
-                    </div>
-                </div>
+    <!--StyleSheets-->
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/reviews.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
 
-                <div id="contact-us-section">
-                    <div class="left-side">
-                        <h2 class="stencil-text main-titles">Contact Us!</h2>
-                        <span class="noto-serif-regular description">
-                        Ready to bring your vision to life? Contact Meticulous Pete today for a free consultation. 
-                        Whether it's a small repair or a complete renovation, we're here to deliver quality workmanship 
-                        you can trust. We pride ourselves on clear communication, timely project completion, and treating 
-                        every home as if it were our own. From the initial consultation to the final walk-through, we're 
-                        committed to exceeding your expectations and making the renovation process as smooth and stress-free 
-                        as possible.
-                        </span>
-                    </div>
-                    <div class="right-side">
-                        <span class="merriweather-regular contact-header">Telephone: </span>
-                        <span class="merriweather-regular contact-info">613-327-4221</span>
-                        <span class="merriweather-regular contact-header">Email: </span>
-                        <a href="mailto:meticulouspeter@gmail.com" class="merriweather-regular" id="mail-link">
-                            meticulouspeter@gmail.com</a>
-                        <span class="merriweather-regular contact-header">Hours: </span>
-                        <span class="merriweather-regular contact-info">Monday to Friday</span>
-                        <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
-                    </div>
-                </div>
-           </main>
-            <footer>
-                <div id="footer-section">
-                    <span> &copy; 2025 Meticulous Peter | All Rights Reserved <br>
-                    Website by Jesse Proulx</span>
-                </div>
-            </footer>
-            <script>
-                function toggleMenu() {
-                const hamburger = document.querySelector('.hamburger');
-                const navLinks = document.querySelector('.nav-links');
-    
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                }
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="index.html">
+            <div class="logo-text">
+              <span class="stencil-text" id="logo-title" style="color: black">
+                Meticulous Pete Ltd.</span
+              >
+              <span class="stencil-text" id="logo-subtitle"
+                >A Man of Many Trades</span
+              >
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">
+              <span>HOME</span>
+            </a>
+            <a href="services.html" class="nav-link">
+              <span>SERVICES</span>
+            </a>
+            <a href="about-us.html" class="nav-link">
+              <span>ABOUT US</span>
+            </a>
+            <a href="reviews.html" class="nav-link">
+              <span>REVIEWS</span>
+            </a>
+            <a href="gallery.html" class="nav-link">
+              <span>GALLERY</span>
+            </a>
+            <a href="#contact-us-section" class="nav-link">
+              <span>CONTACT US</span>
+            </a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="top-header">
+        <div class="picture-header">
+          <img
+            src="pictures/reviews/header-review-mod.jpg"
+            alt="services picture"
+          />
+        </div>
+        <div class="picture-text">
+          <h2 class="stencil-text">Reviews</h2>
+        </div>
+      </div>
+      <div class="review-header">
+        <h2 class="merriweather-regular" id="reviews-caption-1">
+          Don't take our word for it...
+        </h2>
+        <h2 class="merriweather-regular" id="reviews-caption-2">
+          ...hear from some our valued customers!
+        </h2>
+      </div>
+      <div class="review-container">
+        <div class="color-container-review reveal">
+          <img src="pictures/reviews/stars.png" alt="stars" />
+          <span class="noto-serif-regular">
+            "Peter and his team completely transformed our basement! From the
+            initial consultation to the final walkthrough, everything was
+            handled professionally. The drywall work was flawless, and they
+            finished ahead of schedule. Peter was always available to answer
+            questions and made sure we were happy with every detail. Highly
+            recommend Meticulous Pete for any renovation project!"
+          </span>
+          <span class="scope-one-regular customer-review-name"
+            >Anita Dick, Barrhaven</span
+          >
+        </div>
+        <div class="color-container-review reveal">
+          <img src="pictures/reviews/stars.png" alt="stars" />
+          <span class="noto-serif-regular">
+            "We hired Peter to install new hardwood flooring throughout our main
+            floor and build a custom deck in our backyard, and the quality of
+            workmanship is simply outstanding. Peter provided a detailed quote
+            that was fair and transparent - no hidden fees or surprises. When it
+            came to the flooring, his attention to detail really shined through.
+            Every plank was carefully placed, every corner is perfectly mitered,
+            and the transitions between rooms are seamless. He even helped us
+            navigate some tricky areas around our fireplace and staircase. The
+            deck project was equally impressive. Peter designed it to maximize
+            our yard space while ensuring it complemented our home's
+            architecture. The structure is rock-solid, the boards are perfectly
+            level, and the finish is beautiful. Throughout both projects, his
+            team was punctual, professional, and incredibly respectful of our
+            home. They cleaned up after themselves every single day and kept
+            disruption to our daily routine at a minimum. My wife and I both
+            work from home, and we barely noticed they were here. Fair pricing,
+            excellent communication, and results that exceeded our expectations
+            - we'll definitely be calling Meticulous Pete for all our future
+            home improvement needs!"
+          </span>
+          <span class="scope-one-regular customer-review-name"
+            >Harry Johnson, Kanata</span
+          >
+        </div>
+        <div class="color-container-review reveal">
+          <img src="pictures/reviews/stars.png" alt="stars" />
+          <span class="noto-serif-regular">
+            "Peter did a beautiful job renovating our master bathroom. He helped
+            us choose materials that fit our budget and style perfectly. The
+            tile work is stunning, and the new vanity and fixtures look amazing.
+            What impressed me most was his communication - he kept us updated
+            throughout the entire process and there were no surprises. Worth
+            every penny!"
+          </span>
+          <span class="scope-one-regular customer-review-name"
+            >Dixon Butts, Winchester</span
+          >
+        </div>
+        <div class="color-container-review reveal">
+          <img src="pictures/reviews/stars.png" alt="stars" />
+          <span class="noto-serif-regular">
+            "I needed a new fence installed quickly before winter arrived, and
+            Peter absolutely came through for us. When I first reached out, he
+            responded within hours and came out to look at the property the very
+            next day. He took measurements, discussed different material options
+            with me, and provided a detailed quote on the spot. The price was
+            more than fair - actually better than two other quotes I'd received
+            - and he was able to start the following week. Peter and his team
+            worked efficiently and professionally, and the fence was completed
+            in just three days despite some challenging weather. The
+            craftsmanship is solid and built to last. Every post is perfectly
+            plumb, the boards are aligned beautifully, and the gates open and
+            close smoothly without any sagging. You can tell Peter takes real
+            pride in his work and doesn't cut corners. He even took extra time
+            to ensure the fence line was perfectly straight and level across our
+            slightly sloped yard. Beyond the quality of work, what stood out was
+            Peter's integrity and reliability. He showed up exactly when he said
+            he would, kept me informed throughout the process, and didn't try to
+            upsell me on things I didn't need. He's honest, straightforward, and
+            clearly passionate about delivering excellent results. I've already
+            recommended him to three of my neighbors, and two of them have hired
+            him for their own projects. If you need quality work done right,
+            call Meticulous Pete. You won't be disappointed!"
+          </span>
+          <span class="scope-one-regular customer-review-name"
+            >Ben R. Over, Orleans</span
+          >
+        </div>
+        <div class="color-container-review reveal">
+          <img src="pictures/reviews/stars.png" alt="stars" />
+          <span class="noto-serif-regular">
+            "We hired Meticulous Pete to install new flooring throughout our
+            main floor and build a deck in our backyard. The quality of
+            workmanship is outstanding. Peter's attention to detail really shows
+            - every corner is perfect, every board is level. They cleaned up
+            after themselves every day and treated our home with respect. Fair
+            pricing and excellent results. We'll definitely be calling them for
+            future projects."
+          </span>
+          <span class="scope-one-regular customer-review-name"
+            >E. Normous Peter. Nepean</span
+          >
+        </div>
+      </div>
 
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    document.querySelector('.hamburger').classList.remove('active');
-                    document.querySelector('.nav-links').classList.remove('active');
-                });
-            });
-            </script>
-            <script>
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                });
+      <div id="contact-us-section">
+        <div class="left-side">
+          <h2 class="stencil-text main-titles">Contact Us!</h2>
+          <span class="noto-serif-regular description">
+            Ready to bring your vision to life? Contact Meticulous Pete today
+            for a free consultation. Whether it's a small repair or a complete
+            renovation, we're here to deliver quality workmanship you can trust.
+            We pride ourselves on clear communication, timely project
+            completion, and treating every home as if it were our own. From the
+            initial consultation to the final walk-through, we're committed to
+            exceeding your expectations and making the renovation process as
+            smooth and stress-free as possible.
+          </span>
+        </div>
+        <div class="right-side">
+          <span class="merriweather-regular contact-header">Telephone: </span>
+          <span class="merriweather-regular contact-info">613-327-4221</span>
+          <span class="merriweather-regular contact-header">Email: </span>
+          <a
+            href="mailto:meticulouspeter@gmail.com"
+            class="merriweather-regular"
+            id="mail-link"
+          >
+            meticulouspeter@gmail.com</a
+          >
+          <span class="merriweather-regular contact-header">Hours: </span>
+          <span class="merriweather-regular contact-info"
+            >Monday to Friday</span
+          >
+          <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-section">
+        <span>
+          &copy; 2025 Meticulous Peter | All Rights Reserved <br />
+          Website by Jesse Proulx</span
+        >
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
 
-                document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-            </script>
-        </body>
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
+
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".hamburger").classList.remove("active");
+          document.querySelector(".nav-links").classList.remove("active");
+        });
+      });
+    </script>
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
 </html>
-

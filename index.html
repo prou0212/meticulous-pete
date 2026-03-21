@@ -1,252 +1,323 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Meticulous Pete Ltd. | Man of Many Trades</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Jesse Proulx"> 
+  <head>
+    <title>Meticulous Pete Ltd. | Man of Many Trades</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jesse Proulx" />
 
-        <link rel="icon" type="image/png" href="pictures/icon/hammer.png">
-        
-        <!--StyleSheets-->
-        <link href="css/header.css" rel="stylesheet" type="text/css">
-        <link href="css/footer.css" rel="stylesheet" type="text/css">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css">
-        <link href="css/index.css" rel="stylesheet" type="text/css">
-        <link href="css/basic-styling.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="pictures/icon/hammer.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap" rel="stylesheet">
-    </head>  
-        <body>
-            <header>
-                <nav class="nav-bar">
-                    <div class="nav-container">
-                        <a href="index.html">
-                            <div class="logo-text">
-                                <span class="stencil-text" id="logo-title">
-                                    Meticulous Pete Ltd.</span>
-                                <span class="stencil-text" id="logo-subtitle">A Man of Many Trades</span>
-                            </div>
-                        </a>
-                        <div class="nav-links">
-                            <a href="index.html" class="nav-link">
-                                <span>HOME</span>
-                            </a>
-                            <a href="services.html" class="nav-link">
-                                <span>SERVICES</span>
-                            </a>
-                            <a href="about-us.html" class="nav-link">
-                                <span>ABOUT US</span>
-                            </a>
-                            <a href="reviews.html" class="nav-link">
-                                <span>REVIEWS</span>
-                            </a>
-                            <a href="gallery.html" class="nav-link">
-                                <span>GALLERY</span>
-                            </a>
-                            <a href="#contact-us-section" class="nav-link">
-                                <span>CONTACT US</span>
-                            </a>
-                        </div>
-                        <div class="hamburger" onclick="toggleMenu()">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-           <main>
-                <div id="picture-slideshow">
-                    <div class="slide active">
-                        <img src="pictures/index/Slideshow/slideshow-6.jpeg" alt="picture for slideshow">
-                        <div class="slide-text">
-                            <h2>Welcome to Meticulous Pete Ltd.</h2>
-                            <span>Your trusted partner for quality workmanship and exceptional home improvements</span>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="pictures/index/Slideshow/slideshow-4.jpeg" alt="picture for slideshow">
-                        <div class="slide-text">
-                            <h2>Expert Renovations & Remodeling</h2>
-                            <span>From small repairs to complete transformations, we bring your vision to life</span>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <img src="pictures/index/Slideshow/slideshow-5.jpeg" alt="picture for slideshow">
-                        <div class="slide-text">
-                            <h2>Always Open For Business</h2>
-                            <span>No job too small, no project too big</span>
-                        </div>
-                    </div>
-                    <button class="slider-btn prev-btn" onclick="prevSlide()">&#10096;</button>
-                    <button class="slider-btn next-btn" onclick="nextSlide()">&#10097;</button>
-                </div>
+    <!--StyleSheets-->
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
 
-                <div id="projects-section">
-                    <div id="main-projects-container">
-                        <div id="projects-titles">
-                            <h1 class="merriweather-regular" id="experts-title">Expert Projects By</h1>
-                            <h1 class="stencil-text main-titles">Expert Contractors</h1>
-                        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="index.html">
+            <div class="logo-text">
+              <span class="stencil-text" id="logo-title">
+                Meticulous Pete Ltd.</span
+              >
+              <span class="stencil-text" id="logo-subtitle"
+                >A Man of Many Trades</span
+              >
+            </div>
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">
+              <span>HOME</span>
+            </a>
+            <a href="services.html" class="nav-link">
+              <span>SERVICES</span>
+            </a>
+            <a href="about-us.html" class="nav-link">
+              <span>ABOUT US</span>
+            </a>
+            <a href="reviews.html" class="nav-link">
+              <span>REVIEWS</span>
+            </a>
+            <a href="gallery.html" class="nav-link">
+              <span>GALLERY</span>
+            </a>
+            <a href="#contact-us-section" class="nav-link">
+              <span>CONTACT US</span>
+            </a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="picture-slideshow">
+        <div class="slide active">
+          <img
+            src="pictures/index/Slideshow/slideshow-6.jpeg"
+            alt="picture for slideshow"
+          />
+          <div class="slide-text">
+            <h2>Welcome to Meticulous Pete Ltd.</h2>
+            <span
+              >Your trusted partner for quality workmanship and exceptional home
+              improvements</span
+            >
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="pictures/index/Slideshow/slideshow-4.jpeg"
+            alt="picture for slideshow"
+          />
+          <div class="slide-text">
+            <h2>Expert Renovations & Remodeling</h2>
+            <span
+              >From small repairs to complete transformations, we bring your
+              vision to life</span
+            >
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="pictures/index/Slideshow/slideshow-5.jpeg"
+            alt="picture for slideshow"
+          />
+          <div class="slide-text">
+            <h2>Always Open For Business</h2>
+            <span>No job too small, no project too big</span>
+          </div>
+        </div>
+        <button class="slider-btn prev-btn" onclick="prevSlide()">
+          &#10096;
+        </button>
+        <button class="slider-btn next-btn" onclick="nextSlide()">
+          &#10097;
+        </button>
+      </div>
 
-                        <div class="project-containers-all">
-                            <div class="noto-serif-regular project-containers">
-                                <img src="pictures/index/projects/stonework.jpeg" alt="guys stoneworking">
-                                    <div class="projects-text">
-                                        <h2>Stonework</h2>
-                                    </div>
-                            </div>
-                            <div class="noto-serif-regular project-containers">
-                                <img src="pictures/index/projects/flooring.jpeg" alt="guys doing flooring">
-                                    <div class="projects-text">
-                                        <h2>Flooring</h2>
-                                    </div>
-                            </div>
-                            <div class="noto-serif-regular project-containers">
-                                <img src="pictures/index/projects/decking.jpeg" alt="guys doing decking">
-                                    <div class="projects-text">
-                                        <h2>Decking</h2>
-                                    </div>
-                            </div>
-                        </div>
-                    
-                        <div class="project-containers-all">
-                            <div class="noto-serif-regular project-containers">
-                                <img src="pictures/index/projects/fencing.jpg" alt="guys doing fencing(Not the sport)">
-                                    <div class="projects-text">
-                                        <h2>Fencing</h2>
-                                    </div>
-                            </div>
-                            <div class="noto-serif-regular project-containers">
-                                <img src="pictures/index/projects/bathrooms.jpeg" alt="guys doing bathroom(not taking a shit)">
-                                    <div class="projects-text">
-                                        <h2>Bathrooms</h2>
-                                    </div>
-                            </div>
-                            <div class="noto-serif-regular project-containers">
-                                <img src="pictures/index/projects/kitchens.jpeg" alt="guys doing kitchen stuff">
-                                    <div class="projects-text">
-                                        <h2>Kitchens</h2>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div id="projects-section">
+        <div id="main-projects-container">
+          <div id="projects-titles">
+            <h1 class="merriweather-regular" id="experts-title">
+              Expert Projects By
+            </h1>
+            <h1 class="stencil-text main-titles">Expert Contractors</h1>
+          </div>
 
-                <div id="about-us-section">
-                    <div class="default-container">
-                        <div class="left-side-image">
-                            <img src="pictures/index/about-us.jpeg" alt="construction">
-                        </div>
-                        <div class="right-side-description" id="right-about-us">
-                            <h2 class="merriweather-regular main-titles reveal">Our Story</h2>
-                            <span class="scope-one-regular description reveal" id="about-us-description">
-                            As a team that wears many different hats, 
-                            we take pride in being versatile, reliable, and meticulous in every project 
-                            we take on. From small home repairs to complete renovations, our focus is always 
-                            on quality workmanship and customer satisfaction. We treat every home as if it were 
-                            our own, ensuring each detail is handled with care, precision, and pride. When you 
-                            choose Meticulous Pete, you are not just hiring a contractor, you are partnering 
-                            with professionals who are dedicated to making your vision a reality. </span>
-                            <span class="scope-one-regular" id="peter-text">Peter Rousseau</span>         
-                            <span class="scope-one-regular" id="owner-text">Owner of Meticulous Peter</span>
-                            <a href="about-us.html" class="scope-one-regular buttons" id="about-us-button">About Us</a>
-                        </div>
-                    </div>
-                </div>
+          <div class="project-containers-all">
+            <div class="noto-serif-regular project-containers">
+              <img
+                src="pictures/index/projects/stonework.jpeg"
+                alt="guys stoneworking"
+              />
+              <div class="projects-text">
+                <h2>Stonework</h2>
+              </div>
+            </div>
+            <div class="noto-serif-regular project-containers">
+              <img
+                src="pictures/index/projects/flooring.jpeg"
+                alt="guys doing flooring"
+              />
+              <div class="projects-text">
+                <h2>Flooring</h2>
+              </div>
+            </div>
+            <div class="noto-serif-regular project-containers">
+              <img
+                src="pictures/index/projects/decking.jpeg"
+                alt="guys doing decking"
+              />
+              <div class="projects-text">
+                <h2>Decking</h2>
+              </div>
+            </div>
+          </div>
 
-                <div id="contact-us-section">
-                    <div class="left-side">
-                        <h2 class="stencil-text main-titles">Contact Us!</h2>
-                        <span class="noto-serif-regular description">
-                        Ready to bring your vision to life? Contact Meticulous Pete today for a free consultation. 
-                        Whether it's a small repair or a complete renovation, we're here to deliver quality workmanship 
-                        you can trust. We pride ourselves on clear communication, timely project completion, and treating 
-                        every home as if it were our own. From the initial consultation to the final walk-through, we're 
-                        committed to exceeding your expectations and making the renovation process as smooth and stress-free 
-                        as possible.
-                        </span>
-                    </div>
-                    <div class="right-side">
-                        <span class="merriweather-regular contact-header">Telephone: </span>
-                        <span class="merriweather-regular contact-info">613-327-4221</span>
-                        <span class="merriweather-regular contact-header">Email: </span>
-                        <a href="mailto:meticulouspeter@gmail.com" class="merriweather-regular" id="mail-link">
-                            meticulouspeter@gmail.com</a>
-                        <span class="merriweather-regular contact-header">Hours: </span>
-                        <span class="merriweather-regular contact-info">Monday to Friday</span>
-                        <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
-                    </div>
-                </div>
-           </main>
-            <footer>
-                <div id="footer-section">
-                    <span> &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br>
-                    Website by Jesse Proulx</span>
-                </div>
-            </footer>
-            <script>
-                function toggleMenu() {
-                const hamburger = document.querySelector('.hamburger');
-                const navLinks = document.querySelector('.nav-links');
-    
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                }
+          <div class="project-containers-all">
+            <div class="noto-serif-regular project-containers">
+              <img
+                src="pictures/index/projects/fencing.jpg"
+                alt="guys doing fencing(Not the sport)"
+              />
+              <div class="projects-text">
+                <h2>Fencing</h2>
+              </div>
+            </div>
+            <div class="noto-serif-regular project-containers">
+              <img
+                src="pictures/index/projects/bathrooms.jpeg"
+                alt="guys doing bathroom(not taking a shit)"
+              />
+              <div class="projects-text">
+                <h2>Bathrooms</h2>
+              </div>
+            </div>
+            <div class="noto-serif-regular project-containers">
+              <img
+                src="pictures/index/projects/kitchens.jpeg"
+                alt="guys doing kitchen stuff"
+              />
+              <div class="projects-text">
+                <h2>Kitchens</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    document.querySelector('.hamburger').classList.remove('active');
-                    document.querySelector('.nav-links').classList.remove('active');
-                });
-            });
-            </script>
+      <div id="about-us-section">
+        <div class="main-container">
+          <div class="left-side-image">
+            <img src="pictures/index/about-us.jpeg" alt="construction" />
+          </div>
+          <div class="right-side-description" id="right-about-us">
+            <h2 class="merriweather-regular main-titles reveal">Our Story</h2>
+            <span
+              class="scope-one-regular description reveal"
+              id="about-us-description"
+            >
+              As a team that wears many different hats, we take pride in being
+              versatile, reliable, and meticulous in every project we take on.
+              From small home repairs to complete renovations, our focus is
+              always on quality workmanship and customer satisfaction. We treat
+              every home as if it were our own, ensuring each detail is handled
+              with care, precision, and pride. When you choose Meticulous Pete,
+              you are not just hiring a contractor, you are partnering with
+              professionals who are dedicated to making your vision a reality.
+            </span>
+            <span class="scope-one-regular" id="peter-text"
+              >Peter Rousseau</span
+            >
+            <span class="scope-one-regular" id="owner-text"
+              >Owner of Meticulous Peter</span
+            >
+            <a
+              href="about-us.html"
+              class="scope-one-regular buttons"
+              id="about-us-button"
+              >About Us</a
+            >
+          </div>
+        </div>
+      </div>
 
-            <script>
-                const slides = document.querySelectorAll('.slide');
-                let currentSlide = 0;
+      <div id="contact-us-section">
+        <div class="left-side">
+          <h2 class="stencil-text main-titles">Contact Us!</h2>
+          <span class="noto-serif-regular description">
+            Ready to bring your vision to life? Contact Meticulous Pete today
+            for a free consultation. Whether it's a small repair or a complete
+            renovation, we're here to deliver quality workmanship you can trust.
+            We pride ourselves on clear communication, timely project
+            completion, and treating every home as if it were our own. From the
+            initial consultation to the final walk-through, we're committed to
+            exceeding your expectations and making the renovation process as
+            smooth and stress-free as possible.
+          </span>
+        </div>
+        <div class="right-side">
+          <span class="merriweather-regular contact-header">Telephone: </span>
+          <span class="merriweather-regular contact-info">613-327-4221</span>
+          <span class="merriweather-regular contact-header">Email: </span>
+          <a
+            href="mailto:meticulouspeter@gmail.com"
+            class="merriweather-regular"
+            id="mail-link"
+          >
+            meticulouspeter@gmail.com</a
+          >
+          <span class="merriweather-regular contact-header">Hours: </span>
+          <span class="merriweather-regular contact-info"
+            >Monday to Friday</span
+          >
+          <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-section">
+        <span>
+          &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br />
+          Website by Jesse Proulx</span
+        >
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
 
-                function showSlide(slideIndex) {
-                    slides.forEach(slide => {
-                        slide.classList.remove('active');
-                        slides[slideIndex];
-                    });
-                    slides[slideIndex].classList.add('active');
-                }
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
 
-                function nextSlide() {
-                    currentSlide++;
-                    if(currentSlide >= slides.length) {
-                        currentSlide = 0;
-                    }
-                    showSlide(currentSlide);
-                }
-                
-                function prevSlide() {
-                    currentSlide--;
-                    if(currentSlide < 0) {
-                        currentSlide = slides.length - 1;
-                    }
-                    showSlide(currentSlide);
-                }
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".hamburger").classList.remove("active");
+          document.querySelector(".nav-links").classList.remove("active");
+        });
+      });
+    </script>
 
-                setInterval(nextSlide, 10000);
-            </script>
-            
-            <script>
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                });
+    <script>
+      const slides = document.querySelectorAll(".slide");
+      let currentSlide = 0;
 
-                document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-            </script>
-        </body>
+      function showSlide(slideIndex) {
+        slides.forEach((slide) => {
+          slide.classList.remove("active");
+          slides[slideIndex];
+        });
+        slides[slideIndex].classList.add("active");
+      }
+
+      function nextSlide() {
+        currentSlide++;
+        if (currentSlide >= slides.length) {
+          currentSlide = 0;
+        }
+        showSlide(currentSlide);
+      }
+
+      function prevSlide() {
+        currentSlide--;
+        if (currentSlide < 0) {
+          currentSlide = slides.length - 1;
+        }
+        showSlide(currentSlide);
+      }
+
+      setInterval(nextSlide, 10000);
+    </script>
+
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
 </html>
-

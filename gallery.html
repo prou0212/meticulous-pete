@@ -1,274 +1,368 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>Meticulous Pete | Man of Many Trades</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Jesse Proulx"> 
+  <head>
+    <title>Meticulous Pete | Man of Many Trades</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jesse Proulx" />
 
-        <link rel="icon" type="image/png" href="pictures/icon/hammer.png">
-        
-        <!--StyleSheets-->
-        <link href="css/header.css" rel="stylesheet" type="text/css">
-        <link href="css/footer.css" rel="stylesheet" type="text/css">
-        <link href="css/fonts.css" rel="stylesheet" type="text/css">
-        <link href="css/gallery.css" rel="stylesheet" type="text/css">
-        <link href="css/basic-styling.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="pictures/icon/hammer.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap" rel="stylesheet">
-    </head>  
-        <body>
-            <header>
-                <nav class="nav-bar">
-                    <div class="nav-container">
-                        <a href="index.html">
-                            <div class="logo-text">
-                                <span class="stencil-text" id="logo-title" style="color: black;">
-                                    Meticulous Pete Ltd.</span>
-                                <span class="stencil-text" id="logo-subtitle">A Man of Many Trades</span>
-                            </div>
-                        </a>
-                        <div class="nav-links">
-                            <a href="index.html" class="nav-link">
-                                <span>HOME</span>
-                            </a>
-                            <a href="services.html" class="nav-link">
-                                <span>SERVICES</span>
-                            </a>
-                            <a href="about-us.html" class="nav-link">
-                                <span>ABOUT US</span>
-                            </a>
-                            <a href="reviews.html" class="nav-link">
-                                <span>REVIEWS</span>
-                            </a>
-                            <a href="gallery.html" class="nav-link">
-                                <span>GALLERY</span>
-                            </a>
-                            <a href="#contact-us-section" class="nav-link">
-                                <span>CONTACT US</span>
-                            </a>
-                        </div>
-                        <div class="hamburger" onclick="toggleMenu()">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-           <main>
-                <div class="top-header">
-                    <div class="picture-header">
-                        <img src="pictures/gallery/gallery-header-mod.jpg" alt="gallery picture">
-                    </div>
-                    <div class="picture-text">
-                        <h2 class="stencil-text">Gallery</h2>
-                    </div>
-                </div> 
+    <!--StyleSheets-->
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="css/gallery.css" rel="stylesheet" type="text/css" />
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
 
-                <div class="gallery-conatiner"></div>    
-                    <div class="kitchen-container">
-                        <h2 class="scope-one-regular">Kitchen</h2>
-                        <div class="picture-display">
-                            <img src="pictures/gallery/kitchen-gallery/kitchen-1.jpeg" alt="kitchen picture 1">
-                            <img src="pictures/gallery/kitchen-gallery/kitchen-2.jpeg" alt="kitchen picture 2">
-                            <img src="pictures/gallery/kitchen-gallery/kitchen-3.jpeg" alt="kitchen picture 3">
-                            <img src="pictures/gallery/kitchen-gallery/kitchen-4.jpeg" alt="kitchen picture 4">
-                            <img src="pictures/gallery/kitchen-gallery/kitchen-5.jpeg" alt="kitchen picture 5">
-                        </div>
-                    </div>
-                    <div class="bathroom-container">
-                        <h2 class="scope-one-regular">Bathrooms</h2>
-                        <div class="picture-display">
-                            <img src="pictures/gallery/bathroom-gallery/bathroom-1.jpeg" alt="bathroom picture 1">
-                            <img src="pictures/gallery/bathroom-gallery/bathroom-2.jpeg" alt="bathroom picture 2">
-                            <img src="pictures/gallery/bathroom-gallery/bathroom-3.jpeg" alt="bathroom picture 3">
-                            <img src="pictures/gallery/bathroom-gallery/bathroom-4.jpeg" alt="bathroom picture 4">
-                            <img src="pictures/gallery/bathroom-gallery/bathroom-5.jpeg" alt="bathroom picture 5">
-                        </div>
-                    </div>
-                    <div class="decks-container">
-                        <h2 class="scope-one-regular">Stonework</h2>
-                        <div class="picture-display">
-                            <img src="pictures/gallery/stonework/stonework-1.jpeg" alt="stone work 1">
-                            <img src="pictures/gallery/stonework/stonework-2.jpeg" alt="stone work 2">
-                            <img src="pictures/gallery/stonework/stonework-3.jpeg" alt="stone work 3">
-                            <img src="pictures/gallery/stonework/stonework-4.jpeg" alt="stone work 4">
-                        </div>
-                    </div>
-                    <div class="before-after-container">
-                        <h2 class="scope-one-regular">Before/After</h2>
-                        <div class="picture-display">
-                            <img src="pictures/gallery/before-after-gallery/before-after-1.jpeg" alt="before-after picture 1">
-                            <img src="pictures/gallery/before-after-gallery/before-after-2.jpeg" alt="before-after picture 2">
-                            <img src="pictures/gallery/before-after-gallery/before-after-3.jpeg" alt="before-after picture 3">
-                            <img src="pictures/gallery/before-after-gallery/before-after-4.jpeg" alt="before-after picture 4">
-                            <img src="pictures/gallery/before-after-gallery/before-after-5.jpeg" alt="before-after picture 5">
-                            <img src="pictures/gallery/before-after-gallery/before-after-6.jpeg" alt="before-after picture 6">
-                            <img src="pictures/gallery/before-after-gallery/before-after-7.jpeg" alt="before-after picture 7">
-                            <img src="pictures/gallery/before-after-gallery/before-after-8.jpeg" alt="before-after picture 8">
-                            <img src="pictures/gallery/before-after-gallery/before-after-9.jpeg" alt="before-after picture 9">
-                            <img src="pictures/gallery/before-after-gallery/before-after-10.jpeg" alt="before-after picture 10">
-                        </div>
-                    </div>
-                <div id="contact-us-section">
-                    <div class="left-side">
-                        <h2 class="stencil-text main-titles">Contact Us!</h2>
-                        <span class="noto-serif-regular description">
-                        Ready to bring your vision to life? Contact Meticulous Pete today for a free consultation. 
-                        Whether it's a small repair or a complete renovation, we're here to deliver quality workmanship 
-                        you can trust. We pride ourselves on clear communication, timely project completion, and treating 
-                        every home as if it were our own. From the initial consultation to the final walk-through, we're 
-                        committed to exceeding your expectations and making the renovation process as smooth and stress-free 
-                        as possible.
-                        </span>
-                    </div>
-                    <div class="right-side">
-                        <span class="merriweather-regular contact-header">Telephone: </span>
-                        <span class="merriweather-regular contact-info">613-327-4221</span>
-                        <span class="merriweather-regular contact-header">Email: </span>
-                        <a href="mailto:meticulouspeter@gmail.com" class="merriweather-regular" id="mail-link">
-                            meticulouspeter@gmail.com</a>
-                        <span class="merriweather-regular contact-header">Hours: </span>
-                        <span class="merriweather-regular contact-info">Monday to Friday</span>
-                        <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
-                    </div>
-                </div>
-           </main>
-            <footer>
-                <div id="footer-section">
-                    <span> &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br>
-                    Website by Jesse Proulx</span>
-                </div>
-            </footer>
-
-            <div id="lightbox">
-                <button id="expand-btn">⛶</button>
-                <button id="close-btn">X</button>
-                <img id="lightbox-img" src="pictures/gallery/kitchen-gallery/kitchen-pic-1.jpg" alt="">
-                <button id="left-btn">&#10096;</button>
-                <button id="right-btn">&#10097;</button>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Scope+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="index.html">
+            <div class="logo-text">
+              <span class="stencil-text" id="logo-title" style="color: black">
+                Meticulous Pete Ltd.</span
+              >
+              <span class="stencil-text" id="logo-subtitle"
+                >A Man of Many Trades</span
+              >
             </div>
-            <script>
-                function toggleMenu() {
-                const hamburger = document.querySelector('.hamburger');
-                const navLinks = document.querySelector('.nav-links');
-    
-                hamburger.classList.toggle('active');
-                navLinks.classList.toggle('active');
-                }
+          </a>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link">
+              <span>HOME</span>
+            </a>
+            <a href="services.html" class="nav-link">
+              <span>SERVICES</span>
+            </a>
+            <a href="about-us.html" class="nav-link">
+              <span>ABOUT US</span>
+            </a>
+            <a href="reviews.html" class="nav-link">
+              <span>REVIEWS</span>
+            </a>
+            <a href="gallery.html" class="nav-link">
+              <span>GALLERY</span>
+            </a>
+            <a href="#contact-us-section" class="nav-link">
+              <span>CONTACT US</span>
+            </a>
+          </div>
+          <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="top-header">
+        <div class="picture-header">
+          <img
+            src="pictures/gallery/gallery-header-mod.jpg"
+            alt="gallery picture"
+          />
+        </div>
+        <div class="picture-text">
+          <h2 class="stencil-text">Gallery</h2>
+        </div>
+      </div>
 
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.addEventListener('click', () => {
-                    document.querySelector('.hamburger').classList.remove('active');
-                    document.querySelector('.nav-links').classList.remove('active');
-                });
-            });
-            </script>
-            <script>
+      <div class="gallery-conatiner"></div>
+      <div class="kitchen-container">
+        <h2 class="scope-one-regular">Kitchen</h2>
+        <div class="picture-display">
+          <img
+            src="pictures/gallery/kitchen-gallery/kitchen-1.jpeg"
+            alt="kitchen picture 1"
+          />
+          <img
+            src="pictures/gallery/kitchen-gallery/kitchen-2.jpeg"
+            alt="kitchen picture 2"
+          />
+          <img
+            src="pictures/gallery/kitchen-gallery/kitchen-3.jpeg"
+            alt="kitchen picture 3"
+          />
+          <img
+            src="pictures/gallery/kitchen-gallery/kitchen-4.jpeg"
+            alt="kitchen picture 4"
+          />
+          <img
+            src="pictures/gallery/kitchen-gallery/kitchen-5.jpeg"
+            alt="kitchen picture 5"
+          />
+        </div>
+      </div>
+      <div class="bathroom-container">
+        <h2 class="scope-one-regular">Bathrooms</h2>
+        <div class="picture-display">
+          <img
+            src="pictures/gallery/bathroom-gallery/bathroom-1.jpeg"
+            alt="bathroom picture 1"
+          />
+          <img
+            src="pictures/gallery/bathroom-gallery/bathroom-2.jpeg"
+            alt="bathroom picture 2"
+          />
+          <img
+            src="pictures/gallery/bathroom-gallery/bathroom-3.jpeg"
+            alt="bathroom picture 3"
+          />
+          <img
+            src="pictures/gallery/bathroom-gallery/bathroom-4.jpeg"
+            alt="bathroom picture 4"
+          />
+          <img
+            src="pictures/gallery/bathroom-gallery/bathroom-5.jpeg"
+            alt="bathroom picture 5"
+          />
+        </div>
+      </div>
+      <div class="decks-container">
+        <h2 class="scope-one-regular">Stonework</h2>
+        <div class="picture-display">
+          <img
+            src="pictures/gallery/stonework/stonework-1.jpeg"
+            alt="stone work 1"
+          />
+          <img
+            src="pictures/gallery/stonework/stonework-2.jpeg"
+            alt="stone work 2"
+          />
+          <img
+            src="pictures/gallery/stonework/stonework-3.jpeg"
+            alt="stone work 3"
+          />
+          <img
+            src="pictures/gallery/stonework/stonework-4.jpeg"
+            alt="stone work 4"
+          />
+        </div>
+      </div>
+      <div class="before-after-container">
+        <h2 class="scope-one-regular">Before/After</h2>
+        <div class="picture-display">
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-1.jpeg"
+            alt="before-after picture 1"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-2.jpeg"
+            alt="before-after picture 2"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-3.jpeg"
+            alt="before-after picture 3"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-4.jpeg"
+            alt="before-after picture 4"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-5.jpeg"
+            alt="before-after picture 5"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-6.jpeg"
+            alt="before-after picture 6"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-7.jpeg"
+            alt="before-after picture 7"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-8.jpeg"
+            alt="before-after picture 8"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-10.jpeg"
+            alt="before-after picture 10"
+          />
+          <img
+            src="pictures/gallery/before-after-gallery/before-after-9.jpeg"
+            alt="before-after picture 9"
+          />
+        </div>
+      </div>
+      <div id="contact-us-section">
+        <div class="left-side">
+          <h2 class="stencil-text main-titles">Contact Us!</h2>
+          <span class="noto-serif-regular description">
+            Ready to bring your vision to life? Contact Meticulous Pete today
+            for a free consultation. Whether it's a small repair or a complete
+            renovation, we're here to deliver quality workmanship you can trust.
+            We pride ourselves on clear communication, timely project
+            completion, and treating every home as if it were our own. From the
+            initial consultation to the final walk-through, we're committed to
+            exceeding your expectations and making the renovation process as
+            smooth and stress-free as possible.
+          </span>
+        </div>
+        <div class="right-side">
+          <span class="merriweather-regular contact-header">Telephone: </span>
+          <span class="merriweather-regular contact-info">613-327-4221</span>
+          <span class="merriweather-regular contact-header">Email: </span>
+          <a
+            href="mailto:meticulouspeter@gmail.com"
+            class="merriweather-regular"
+            id="mail-link"
+          >
+            meticulouspeter@gmail.com</a
+          >
+          <span class="merriweather-regular contact-header">Hours: </span>
+          <span class="merriweather-regular contact-info"
+            >Monday to Friday</span
+          >
+          <span class="merriweather-regular" id="contact-hours">9am-7pm</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer-section">
+        <span>
+          &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br />
+          Website by Jesse Proulx</span
+        >
+      </div>
+    </footer>
 
-            // Get all gallery images
-            const galleryImages = document.querySelectorAll('.picture-display img');
-            const lightbox = document.getElementById('lightbox');
-            const lightboxImg = document.getElementById('lightbox-img');
-            const closeBtn = document.getElementById('close-btn');
-            const expandBtn = document.getElementById('expand-btn');
-            const leftBtn = document.getElementById('left-btn');
-            const rightBtn = document.getElementById('right-btn');
+    <div id="lightbox">
+      <button id="expand-btn">⛶</button>
+      <button id="close-btn">X</button>
+      <img
+        id="lightbox-img"
+        src="pictures/gallery/kitchen-gallery/kitchen-pic-1.jpg"
+        alt=""
+      />
+      <button id="left-btn">&#10096;</button>
+      <button id="right-btn">&#10097;</button>
+    </div>
+    <script>
+      function toggleMenu() {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
 
-            // Store all image sources in an array
-            let allImages = [];
-            let currentIndex = 0;
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      }
 
-            // Populate the images array
-            galleryImages.forEach((img, index) => {
-                allImages.push({
-                    src: img.src,
-                    alt: img.alt
-                });
-                
-                // Add click event to each image
-                img.addEventListener('click', () => {
-                    openLightbox(index);
-                });
-                
-                // Add hover effect cursor
-                img.style.cursor = 'pointer';
-            });
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.querySelector(".hamburger").classList.remove("active");
+          document.querySelector(".nav-links").classList.remove("active");
+        });
+      });
+    </script>
+    <script>
+      // Get all gallery images
+      const galleryImages = document.querySelectorAll(".picture-display img");
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+      const closeBtn = document.getElementById("close-btn");
+      const expandBtn = document.getElementById("expand-btn");
+      const leftBtn = document.getElementById("left-btn");
+      const rightBtn = document.getElementById("right-btn");
 
-            // Open lightbox function
-            function openLightbox(index) {
-                currentIndex = index;
-                lightboxImg.src = allImages[currentIndex].src;
-                lightboxImg.alt = allImages[currentIndex].alt;
-                lightbox.style.display = 'flex';
-                document.body.style.overflow = 'hidden'; // Prevent scrolling
-            }
+      // Store all image sources in an array
+      let allImages = [];
+      let currentIndex = 0;
 
-            // Close lightbox function
-            function closeLightbox() {
-                lightbox.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Re-enable scrolling
-            }
+      // Populate the images array
+      galleryImages.forEach((img, index) => {
+        allImages.push({
+          src: img.src,
+          alt: img.alt,
+        });
 
-            // Navigate to previous image
-            function previousImage() {
-                currentIndex--;
-                if (currentIndex < 0) {
-                    currentIndex = allImages.length - 1; // Loop to last image
-                }
-                lightboxImg.src = allImages[currentIndex].src;
-                lightboxImg.alt = allImages[currentIndex].alt;
-            }
+        // Add click event to each image
+        img.addEventListener("click", () => {
+          openLightbox(index);
+        });
 
-            // Navigate to next image
-            function nextImage() {
-                currentIndex++;
-                if (currentIndex >= allImages.length) {
-                    currentIndex = 0; // Loop to first image
-                }
-                lightboxImg.src = allImages[currentIndex].src;
-                lightboxImg.alt = allImages[currentIndex].alt;
-            }
+        // Add hover effect cursor
+        img.style.cursor = "pointer";
+      });
 
-            // Toggle fullscreen
-            function toggleFullscreen() {
-                if (!document.fullscreenElement) {
-                    lightbox.requestFullscreen().catch(err => {
-                        console.log('Fullscreen error:', err);
-                    });
-                } else {
-                    document.exitFullscreen();
-                }
-            }
+      // Open lightbox function
+      function openLightbox(index) {
+        currentIndex = index;
+        lightboxImg.src = allImages[currentIndex].src;
+        lightboxImg.alt = allImages[currentIndex].alt;
+        lightbox.style.display = "flex";
+        document.body.style.overflow = "hidden"; // Prevent scrolling
+      }
 
-            // Event listeners for buttons
-            closeBtn.addEventListener('click', closeLightbox);
-            expandBtn.addEventListener('click', toggleFullscreen);
-            leftBtn.addEventListener('click', previousImage);
-            rightBtn.addEventListener('click', nextImage);
+      // Close lightbox function
+      function closeLightbox() {
+        lightbox.style.display = "none";
+        document.body.style.overflow = "auto"; // Re-enable scrolling
+      }
 
-            // Close lightbox when clicking on the dark background (not on image or buttons)
-            lightbox.addEventListener('click', (e) => {
-                if (e.target === lightbox) {
-                    closeLightbox();
-                }
-            });
+      // Navigate to previous image
+      function previousImage() {
+        currentIndex--;
+        if (currentIndex < 0) {
+          currentIndex = allImages.length - 1; // Loop to last image
+        }
+        lightboxImg.src = allImages[currentIndex].src;
+        lightboxImg.alt = allImages[currentIndex].alt;
+      }
 
-            // Keyboard navigation
-            document.addEventListener('keydown', (e) => {
-                if (lightbox.style.display === 'flex') {
-                    if (e.key === 'Escape') {
-                        closeLightbox();
-                    } else if (e.key === 'ArrowLeft') {
-                        previousImage();
-                    } else if (e.key === 'ArrowRight') {
-                        nextImage();
-                    }
-                }
-            });
-            </script>
-        </body>
+      // Navigate to next image
+      function nextImage() {
+        currentIndex++;
+        if (currentIndex >= allImages.length) {
+          currentIndex = 0; // Loop to first image
+        }
+        lightboxImg.src = allImages[currentIndex].src;
+        lightboxImg.alt = allImages[currentIndex].alt;
+      }
+
+      // Toggle fullscreen
+      function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+          lightbox.requestFullscreen().catch((err) => {
+            console.log("Fullscreen error:", err);
+          });
+        } else {
+          document.exitFullscreen();
+        }
+      }
+
+      // Event listeners for buttons
+      closeBtn.addEventListener("click", closeLightbox);
+      expandBtn.addEventListener("click", toggleFullscreen);
+      leftBtn.addEventListener("click", previousImage);
+      rightBtn.addEventListener("click", nextImage);
+
+      // Close lightbox when clicking on the dark background (not on image or buttons)
+      lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (lightbox.style.display === "flex") {
+          if (e.key === "Escape") {
+            closeLightbox();
+          } else if (e.key === "ArrowLeft") {
+            previousImage();
+          } else if (e.key === "ArrowRight") {
+            nextImage();
+          }
+        }
+      });
+    </script>
+  </body>
 </html>
-
