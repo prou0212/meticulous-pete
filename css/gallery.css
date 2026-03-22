@@ -24,7 +24,7 @@
 }
 
 .before-after-container {
-  background-color: #c9a26a;
+  background-color: rgb(255, 205, 58);
 }
 
 .picture-display {
@@ -63,7 +63,7 @@
 
 .before-after-container .picture-display::-webkit-scrollbar-track,
 .bathroom-container .picture-display::-webkit-scrollbar-thumb {
-  background-color: #c9a26a;
+  background-color: rgb(255, 205, 58);
 }
 
 #lightbox {

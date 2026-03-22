@@ -168,7 +168,7 @@
 }
 
 #right-about-us {
-  background-color: #c9a26a;
+  background-color: rgb(255, 205, 58);
   flex-direction: column;
   padding: 50px 50px 50px 50px;
 }
