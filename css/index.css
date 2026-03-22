@@ -194,7 +194,7 @@
 
 @media screen and (max-width: 1400px) {
   #picture-slideshow {
-    height: 300px;
+    height: 600px;
   }
 
   .slide-text h2 {
@@ -207,6 +207,9 @@
 
   .slide-text {
     padding: 20px 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
   }
 
   #main-projects-container {
