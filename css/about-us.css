@@ -94,10 +94,3 @@
     align-self: center;
   }
 }
-
-@media screen and (max-width: 600px) {
-  #brown-container {
-    padding: 60px 60px;
-    margin: 0;
-  }
-}

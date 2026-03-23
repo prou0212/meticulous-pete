@@ -4,3 +4,23 @@
   display: flex;
   height: 600px;
 }
+
+/*==========================================
+MOBILE (max-width: 1200px)
+============================================*/
+@media screen and (max-width: 1200px) {
+  .image-size {
+    width: 100% !important;
+    height: 350px !important;
+  }
+}
+
+/*==========================================
+iOS / SMALL PHONES (max-width: 768px)
+============================================*/
+@media screen and (max-width: 768px) {
+  .image-size {
+    width: 100% !important;
+    height: 280px !important;
+  }
+}
