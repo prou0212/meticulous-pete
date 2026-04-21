@@ -9,6 +9,7 @@
 
     <link href="css/gallery.css" rel="stylesheet" type="text/css" />
     <link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css?v=2" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,71 +19,76 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      * {
-        box-sizing: border-box;
-      }
+      /*==========================================
+      iOS / SMALL PHONES (max-width: 768px)
+      ============================================*/
+      @media screen and (max-width: 768px) {
+        * {
+          box-sizing: border-box;
+        }
 
-      body {
-        overflow-x: hidden;
-        max-width: 100%;
-      }
+        body {
+          overflow-x: hidden;
+          max-width: 100%;
+        }
 
-      .picture-text {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 90%;
-      }
+        .picture-text {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          width: 90%;
+        }
 
-      .picture-text h2 {
-        font-size: 60px;
-        text-align: center;
-      }
-      .left-right-container {
-        height: auto !important;
-        display: flex !important;
-        flex-direction: column !important;
-        overflow: hidden !important;
-      }
-      .left-side-description,
-      .right-side-description,
-      .left-side-image,
-      .right-side-image {
-        position: static !important;
-        width: 100% !important;
-        height: auto !important;
-        float: none !important;
-      }
-      .image-size {
-        height: 280px !important;
-      }
+        .picture-text h2 {
+          font-size: 60px;
+          text-align: center;
+        }
+        .left-right-container {
+          height: auto !important;
+          display: flex !important;
+          flex-direction: column !important;
+          overflow: hidden !important;
+        }
+        .left-side-description,
+        .right-side-description,
+        .left-side-image,
+        .right-side-image {
+          position: static !important;
+          width: 100% !important;
+          height: auto !important;
+          float: none !important;
+        }
+        .image-size {
+          height: 280px !important;
+        }
 
-      .contact-header {
-        font-size: 30px;
-      }
+        .contact-header {
+          font-size: 30px;
+        }
 
-      .contact-info {
-        font-size: 20px;
-      }
+        .contact-info {
+          font-size: 20px;
+        }
 
-      #mail-link {
-        font-size: 20px;
-      }
+        #mail-link {
+          font-size: 20px;
+        }
 
-      #contact-hours {
-        font-size: 20px;
-      }
+        #contact-hours {
+          font-size: 20px;
+        }
 
-      .buttons {
-        width: 160px;
-        font-size: medium;
-      }
+        .buttons {
+          width: 160px;
+          font-size: medium;
+        }
 
-      #logo-title {
-        font-size: 25px;
-        color: black;
-        text-align: start;
+        #logo-title {
+          font-size: 25px;
+          color: black;
+          text-align: start;
+        }
       }
     </style>
   </head>
@@ -267,13 +273,9 @@
           <h2 class="stencil-text main-titles">Contact Us!</h2>
           <span class="noto-serif-regular description">
             Ready to bring your vision to life? Contact Meticulous Pete today
-            for a free consultation. Whether it's a small repair or a complete
-            renovation, we're here to deliver quality workmanship you can trust.
-            We pride ourselves on clear communication, timely project
-            completion, and treating every home as if it were our own. From the
-            initial consultation to the final walk-through, we're committed to
-            exceeding your expectations and making the renovation process as
-            smooth and stress-free as possible.
+            for a free consultation. From small repairs to full renovations, we
+            deliver quality workmanship with clear communication and timely
+            completion, treating every home as if it were our own.
           </span>
         </div>
         <div class="right-side">
@@ -298,7 +300,7 @@
     <footer>
       <div id="footer-section">
         <span>
-          &copy; 2025 Meticulous Pete Ltd. | All Rights Reserved <br />
+          &copy; 2026 Meticulous Pete Ltd. | All Rights Reserved <br />
           Website by Jesse Proulx</span
         >
       </div>
