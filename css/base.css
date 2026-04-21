@@ -113,12 +113,15 @@ HEADER
 }
 
 .logo-text {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 20px 30px;
   flex-shrink: 0;
-  background-color: rgb(255, 205, 58);
+  background-color: rgb(255, 205, 58); */
+  max-width: 80%;
+  height: auto;
+  gap: 150px;
 }
 
 #logo-title {
